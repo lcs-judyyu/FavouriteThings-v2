@@ -12,10 +12,10 @@ struct LavenderView: View {
         ScrollView {
             VStack {
                 VStack (alignment: .leading){
-                Image("Lavender")
-                    .resizable()
-                    .scaledToFit()
-                    .clipShape(Circle())
+                    Image("Lavender")
+                        .resizable()
+                        .scaledToFit()
+                        .clipShape(Circle())
                     PhotoCaptionsView(caption: "Lavender field")}
                 
                 Text("I LOVE lavender scent :)")

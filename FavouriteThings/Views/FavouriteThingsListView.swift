@@ -15,27 +15,39 @@ struct FavouriteThingsListView: View {
             VStack {
                 List {
                     NavigationLink(destination: ContentView()) {
-                        NavigationImagesView(imageName: "Chinchilla", title: "Chinchilla", description: "Chocolate is the cutest chinchilla")
+                        NavigationImagesView(imageName: "Chinchilla",
+                                             title: "Chinchilla",
+                                             description: "Chocolate is the cutest chinchilla")
                     }
                     
                     NavigationLink(destination: IceCreamView()) {
-                        NavigationImagesView(imageName: "IceCream", title: "Ice Cream", description: "I love milk ice cream")
+                        NavigationImagesView(imageName: "IceCream",
+                                             title: "Ice Cream",
+                                             description: "I love milk ice cream")
                     }
                     
                     NavigationLink(destination: LavenderView()) {
-                        NavigationImagesView(imageName: "Lavender", title: "Lavender", description: "Lavender scent smell so good")
+                        NavigationImagesView(imageName: "Lavender",
+                                             title: "Lavender",
+                                             description: "Lavender scent smell so good")
                     }
                     
                     NavigationLink(destination: HotpotView()) {
-                        NavigationImagesView(imageName: "Hotpot", title: "Hot Pot", description: "Hotpot is my favourite dish at home")
+                        NavigationImagesView(imageName: "Hotpot",
+                                             title: "Hot Pot",
+                                             description: "Hotpot is my favourite dish at home")
                     }
                     
                     NavigationLink(destination: RamenView()) {
-                        NavigationImagesView(imageName: "Ramen", title: "Ramen", description: "I like Tonkotsu ramen")
+                        NavigationImagesView(imageName: "Ramen",
+                                             title: "Ramen",
+                                             description: "I like Tonkotsu ramen")
                     }
                     
                     NavigationLink(destination: RosesView()) {
-                        NavigationImagesView(imageName: "Roses", title: "Roses", description: "Roses are beautiful")
+                        NavigationImagesView(imageName: "Roses",
+                                             title: "Roses",
+                                             description: "Roses are beautiful")
                     }
                 }
                 .navigationTitle("My Favourite Things")

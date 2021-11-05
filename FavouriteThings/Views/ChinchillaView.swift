@@ -12,10 +12,10 @@ struct ContentView: View {
         ScrollView {
             VStack {
                 VStack (alignment: .leading){
-                Image("Chinchilla")
-                    .resizable()
-                    .scaledToFit()
-                    .padding(8)
+                    Image("Chinchilla")
+                        .resizable()
+                        .scaledToFit()
+                        .padding(8)
                     PhotoCaptionsView(caption: "A chinchilla")}
                 
                 Text("I have a chinchilla named Chocolate. (Not the one above) He is so cute!")
