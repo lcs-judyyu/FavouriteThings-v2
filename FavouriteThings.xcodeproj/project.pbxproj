@@ -18,6 +18,7 @@
 		5A7289AA2720653200E9F8A8 /* IceCreamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7289A92720653200E9F8A8 /* IceCreamView.swift */; };
 		5A7289AC2720657B00E9F8A8 /* LavenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7289AB2720657B00E9F8A8 /* LavenderView.swift */; };
 		5A77D31627356431008568DB /* PhotoCaptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A77D31527356431008568DB /* PhotoCaptionsView.swift */; };
+		5A77D31827356BA7008568DB /* NavigationImagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A77D31727356BA7008568DB /* NavigationImagesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		5A7289A92720653200E9F8A8 /* IceCreamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceCreamView.swift; sourceTree = "<group>"; };
 		5A7289AB2720657B00E9F8A8 /* LavenderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LavenderView.swift; sourceTree = "<group>"; };
 		5A77D31527356431008568DB /* PhotoCaptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCaptionsView.swift; sourceTree = "<group>"; };
+		5A77D31727356BA7008568DB /* NavigationImagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationImagesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				5A77D31527356431008568DB /* PhotoCaptionsView.swift */,
+				5A77D31727356BA7008568DB /* NavigationImagesView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 				5A7289AC2720657B00E9F8A8 /* LavenderView.swift in Sources */,
 				5A69618A27270DD500D53FBA /* FavouriteThingsListView.swift in Sources */,
 				5A72899C2720612D00E9F8A8 /* FavouriteThingsApp.swift in Sources */,
+				5A77D31827356BA7008568DB /* NavigationImagesView.swift in Sources */,
 				5A7289AA2720653200E9F8A8 /* IceCreamView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

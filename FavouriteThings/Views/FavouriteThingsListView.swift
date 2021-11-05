@@ -11,41 +11,27 @@ struct FavouriteThingsListView: View {
     var body: some View {
         List {
             NavigationLink(destination: ContentView()) {
-                HStack {
-                    Image("Chinchilla")
-                        .resizable()
-                        .scaledToFit()
-                        .frame(width: 50, height: 50, alignment: .center)
-                        .clipped()
-                    
-                    VStack(alignment: .leading, spacing: 5) {
-                        Text("Chocolate")
-                            .bold()
-                        Text("He is so cute!")
-                            .italic()
-                            .font(.caption2)
-                    }
-                }
+                NavigationImagesView(imageName: "Chinchilla", title: "Chinchilla", description: "Chocolate is the cutest chinchilla")
             }
             
             NavigationLink(destination: IceCreamView()) {
-                Text("Ice Cream")
+                NavigationImagesView(imageName: "IceCream", title: "Ice Cream", description: "I love milk ice cream")
             }
             
             NavigationLink(destination: LavenderView()) {
-                Text("Lavender")
+                NavigationImagesView(imageName: "Lavender", title: "Lavender", description: "Lavender scent smell so good")
             }
             
             NavigationLink(destination: HotpotView()) {
-                Text("Hotpot")
+                NavigationImagesView(imageName: "Hotpot", title: "Hot Pot", description: "Hotpot is my favourite dish at home")
             }
             
             NavigationLink(destination: RamenView()) {
-                Text("Ramen")
+                NavigationImagesView(imageName: "Ramen", title: "Ramen", description: "I like Tonkotsu ramen")
             }
             
             NavigationLink(destination: RosesView()) {
-                Text("Roses")
+                NavigationImagesView(imageName: "Roses", title: "Roses", description: "Roses are beautiful")
             }
         }
         .navigationTitle("My Favourite Things")
@@ -56,6 +42,26 @@ struct FavouriteThingsListView_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView {
             FavouriteThingsListView()
+        }
+    }
+}
+
+struct ExtractedViewTwo: View {
+    var body: some View {
+        HStack {
+            Image("Chinchilla")
+                .resizable()
+                .scaledToFit()
+                .frame(width: 50, height: 50, alignment: .center)
+                .clipped()
+            
+            VStack(alignment: .leading, spacing: 5) {
+                Text("Chinchilla")
+                    .bold()
+                Text("Chocolate is the cutest chinchilla")
+                    .italic()
+                    .font(.caption2)
+            }
         }
     }
 }
