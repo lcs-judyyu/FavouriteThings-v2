@@ -14,7 +14,7 @@ struct IceCreamView: View {
                 Image("IceCream")
                     .resizable()
                     .scaledToFit()
-                PhotosCaptionView(caption: "placeholder", credit: "placeholder")
+ 
                 
                 Text("Ice cream is my favourite dessert")
                 

@@ -15,7 +15,7 @@ struct RosesView: View {
                     .resizable()
                     .scaledToFit()
                     .clipShape(Circle())
-                PhotosCaptionView(caption: "placeholder", credit: "placeholder")
+  
                 
                 Text("""
 Roses are always my first choice for decorating my space.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisl pretium fusce id velit ut tortor pretium viverra suspendisse. A erat nam at lectus urna duis. Aliquam vestibulum morbi blandit cursus risus at ultrices. Laoreet non curabitur gravida arcu ac tortor dignissim convallis. Sit amet est placerat in egestas erat imperdiet. Phasellus vestibulum lorem sed risus ultricies tristique nulla aliquet enim. Eu turpis egestas pretium aenean pharetra magna ac. Tellus id interdum velit laoreet. Aenean et tortor at risus.

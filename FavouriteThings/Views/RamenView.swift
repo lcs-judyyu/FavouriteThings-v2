@@ -11,13 +11,20 @@ struct RamenView: View {
     var body: some View {
         ScrollView {
             VStack {
-                VStack(alignment: .leading) {
+                VStack(alignment: .leading){
                     Image("Ramen")
                         .resizable()
                         .scaledToFit()
-                    .padding(20)
+                        .padding(20)
                     
-                    ExtractedView()
+                    VStack(alignment: .leading, spacing: 3){
+                        Text ("A bowl of ramen that looks delicious")
+                            .bold()
+                        Text ("Online resource")
+                            .italic()
+                    }
+                    .padding(.horizontal, 25)
+                    .font(.caption)
                 }
                 
                 Text("""
@@ -38,18 +45,5 @@ struct RamenView_Previews: PreviewProvider {
         NavigationView {
             RamenView()
         }
-    }
-}
-
-struct ExtractedView: View {
-    var body: some View {
-        VStack(alignment: .leading){
-            Text ("A bowl of ramen that looks delicious")
-                .font(.caption)
-            Text ("Online resource")
-            
-        }
-        .padding(.horizontal, 15)
-        .font(.caption)
     }
 }
