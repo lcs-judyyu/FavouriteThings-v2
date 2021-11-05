@@ -8,13 +8,25 @@
 import SwiftUI
 
 struct PhotoCaptionsView: View {
+    //MARK: Stored properties
+    //This is applying Abstraction
+    let caption: String
+    
+    //MARK: Computed properties
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(alignment: .leading, spacing: 3){
+            Text (caption)
+                .bold()
+            Text ("Online resource")
+                .italic()
+        }
+        .padding(.horizontal, 60)
+        .font(.caption)
     }
 }
 
 struct PhotoCaptionsView_Previews: PreviewProvider {
     static var previews: some View {
-        PhotoCaptionsView()
+        PhotoCaptionsView(caption: "A bowl of ramen that looks delicious")
     }
 }

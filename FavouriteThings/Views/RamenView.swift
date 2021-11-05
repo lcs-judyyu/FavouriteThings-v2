@@ -17,14 +17,7 @@ struct RamenView: View {
                         .scaledToFit()
                         .padding(20)
                     
-                    VStack(alignment: .leading, spacing: 3){
-                        Text ("A bowl of ramen that looks delicious")
-                            .bold()
-                        Text ("Online resource")
-                            .italic()
-                    }
-                    .padding(.horizontal, 25)
-                    .font(.caption)
+                    PhotoCaptionsView(caption: "A bowl of ramen that looks delicious")
                 }
                 
                 Text("""
@@ -45,5 +38,18 @@ struct RamenView_Previews: PreviewProvider {
         NavigationView {
             RamenView()
         }
+    }
+}
+
+struct ExtractedView: View {
+    var body: some View {
+        VStack(alignment: .leading, spacing: 3){
+            Text ("A bowl of ramen that looks delicious")
+                .bold()
+            Text ("Online resource")
+                .italic()
+        }
+        .padding(.horizontal, 35)
+        .font(.caption)
     }
 }

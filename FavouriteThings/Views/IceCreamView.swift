@@ -11,12 +11,16 @@ struct IceCreamView: View {
     var body: some View {
         ScrollView {
             VStack {
+                VStack (alignment: .leading){
                 Image("IceCream")
                     .resizable()
                     .scaledToFit()
+                    PhotoCaptionsView(caption: "Ice Cream")}
  
                 
                 Text("Ice cream is my favourite dessert")
+                    .frame(width: 270, height: 800, alignment: .topLeading)
+                    .padding(20)
                 
                 Spacer()
             }

@@ -11,10 +11,12 @@ struct HotpotView: View {
     var body: some View {
         ScrollView {
             VStack {
+                VStack (alignment: .leading){
                 Image("Hotpot")
                     .resizable()
                     .scaledToFit()
                     .padding(20)
+                    PhotoCaptionsView(caption: "Hotpot")}
 
                 
                 Text("""

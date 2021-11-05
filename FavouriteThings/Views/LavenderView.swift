@@ -11,14 +11,15 @@ struct LavenderView: View {
     var body: some View {
         ScrollView {
             VStack {
+                VStack (alignment: .leading){
                 Image("Lavender")
                     .resizable()
                     .scaledToFit()
                     .clipShape(Circle())
-  
+                    PhotoCaptionsView(caption: "Lavender field")}
                 
                 Text("I LOVE lavender scent :)")
-                    .frame(width: 400, height: 70, alignment: .center)
+                    .frame(width: 270, height: 800, alignment: .topLeading)
                     .padding(20)
                 
                 Spacer()

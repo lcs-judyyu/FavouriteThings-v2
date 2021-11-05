@@ -11,13 +11,16 @@ struct ContentView: View {
     var body: some View {
         ScrollView {
             VStack {
+                VStack (alignment: .leading){
                 Image("Chinchilla")
                     .resizable()
                     .scaledToFit()
                     .padding(8)
+                    PhotoCaptionsView(caption: "A chinchilla")}
                 
                 Text("I have a chinchilla named Chocolate. (Not the one above) He is so cute!")
-                    .frame(width: 300, height: 100, alignment: .center)
+                    .frame(width: 270, height: 800, alignment: .top)
+                    .padding(20)
                 
                 Spacer()
             }
