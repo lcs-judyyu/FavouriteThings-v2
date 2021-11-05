@@ -23,13 +23,13 @@ struct FavouriteThingsListView: View {
                     NavigationLink(destination: IceCreamView()) {
                         NavigationImagesView(imageName: "IceCream",
                                              title: "Ice Cream",
-                                             description: "I love milk ice cream")
+                                             description: "I love milk flavored ice cream")
                     }
                     
                     NavigationLink(destination: LavenderView()) {
                         NavigationImagesView(imageName: "Lavender",
                                              title: "Lavender",
-                                             description: "Lavender scent smell so good")
+                                             description: "Lavender scent smells so good")
                     }
                     
                     NavigationLink(destination: HotpotView()) {
