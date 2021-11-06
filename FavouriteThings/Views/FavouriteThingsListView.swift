@@ -10,8 +10,19 @@ import SwiftUI
 struct FavouriteThingsListView: View {
     var body: some View {
         List {
-            ForEach
+            
+            ForEach(listOfItems) { currentItem in
+                
+                NavigationLink(destination: {
+                    
+                    DetailView(item: currentItem)
+                    
+                }, label: {
+                    EnhancedListItemView(imageName: currentItem.imageName, title: currentItem.title)
+                })
+            }
         }
+        .navigationTitle("My Favourite Things")
     }
 }
 
