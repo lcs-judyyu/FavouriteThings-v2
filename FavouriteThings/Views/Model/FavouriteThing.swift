@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct FavouriteThing: View {
+struct FavouriteThing {
     
     //MARK: Stored Properties
     let imageName: String
@@ -18,19 +18,21 @@ struct FavouriteThing: View {
     let text: String
     
     let listOfItems = [
-       FavouriteThing(imageName: "", title: "", navigationTitle: "", captions: "", credit: "", text: "")
+       FavouriteThing(imageName: "Chinchilla", title: "Chinchilla", navigationTitle: "Chinchilla", captions: "A Chinchilla", credit: "Online resource", text: "I have a chinchilla named Chocolate. (Not the one above) He is so cute!")
+       ,
+       FavouriteThing(imageName: "IceCream", title: "Ice Cream", navigationTitle: "IceCream", captions: "Online resource", credit: "IceCream", text: "Ice cream is my favourite dessert")
+        ,
+       
+       FavouriteThing(imageName: "Lavender", title: "Lavender", navigationTitle: "Lavender", captions: "Lavender field", credit: "Online resource", text: "I LOVE lavender scent :)")
+        ,
+       FavouriteThing(imageName: "Hotpot", title: "Hot pot", navigationTitle: "Hot pot", captions: "Hotpot", credit: "Online resource", text: "Hotpot is my favourite Chinese dish because I can put every ingredient I like in differemnt soup bases. My favourite soup base for hotpot is the spicy one.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ")
+        ,
+       FavouriteThing(imageName: "Ramen", title: "Ramen",
+                      navigationTitle: "Ramen", captions: "A bowl of delicious ramen", credit: "Online resource", text: """
+                      Ramen is another dish I really like.\n\nLorem ipsum dolor sit amet, Dui sapien eget mi proin sed libero enim. Gravida rutrum quisque non tellus. Tristique senectus et netus et malesuada fames ac turpis. Lorem ipsum dolor sit amet consectetur adipiscing.
+                      """)
+        ,
+       FavouriteThing(imageName: "Roses", title: "Roses", navigationTitle: "Roses", captions: "Beautiful roses", credit: "Online resource", text: "Roses are always my first choice for decorating my space.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.")
         
     ]
-}
-    
-    var body: some View {
-       Text("")
-        
-    }
-
-
-struct FavouriteThing_Previews: PreviewProvider {
-    static var previews: some View {
-    FavouriteThing(imageName: "", title: "", navigationTitle: "", captions: "", credit: "", text: "")
-    }
 }
