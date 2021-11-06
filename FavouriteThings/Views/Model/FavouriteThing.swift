@@ -20,7 +20,7 @@ struct FavouriteThing {
     let listOfItems = [
        FavouriteThing(imageName: "Chinchilla", title: "Chinchilla", navigationTitle: "Chinchilla", captions: "A Chinchilla", credit: "Online resource", text: "I have a chinchilla named Chocolate. (Not the one above) He is so cute!")
        ,
-       FavouriteThing(imageName: "IceCream", title: "Ice Cream", navigationTitle: "IceCream", captions: "Online resource", credit: "IceCream", text: "Ice cream is my favourite dessert")
+       FavouriteThing(imageName: "IceCream", title: "Ice Cream", navigationTitle: "IceCream", captions: "Ice cream", credit: "Online resource", text: "Ice cream is my favourite dessert")
         ,
        
        FavouriteThing(imageName: "Lavender", title: "Lavender", navigationTitle: "Lavender", captions: "Lavender field", credit: "Online resource", text: "I LOVE lavender scent :)")
