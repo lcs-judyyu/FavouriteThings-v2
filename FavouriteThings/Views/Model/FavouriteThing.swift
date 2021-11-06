@@ -16,6 +16,7 @@ struct FavouriteThing {
     let captions: String
     let text: String
     
+}
     let listOfItems = [
        FavouriteThing(imageName: "Chinchilla", title: "Chinchilla", navigationTitle: "Chinchilla", captions: "A Chinchilla", text: "I have a chinchilla named Chocolate. (Not the one above) He is so cute!")
        ,
@@ -34,4 +35,3 @@ struct FavouriteThing {
        FavouriteThing(imageName: "Roses", title: "Roses", navigationTitle: "Roses", captions: "Beautiful roses", text: "Roses are always my first choice for decorating my space.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.")
         
     ]
-}
