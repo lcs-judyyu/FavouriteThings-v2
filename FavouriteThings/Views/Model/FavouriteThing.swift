@@ -8,13 +8,29 @@
 import SwiftUI
 
 struct FavouriteThing: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
+    
+    //MARK: Stored Properties
+    let imageName: String
+    let title: String
+    let navigationTitle: String
+    let captions: String
+    let credit: String
+    let text: String
+    
+    let listOfItems = [
+       FavouriteThing(imageName: "", title: "", navigationTitle: "", captions: "", credit: "", text: "")
+        
+    ]
 }
+    
+    var body: some View {
+       Text("")
+        
+    }
+
 
 struct FavouriteThing_Previews: PreviewProvider {
     static var previews: some View {
-        FavouriteThing()
+    FavouriteThing(imageName: "", title: "", navigationTitle: "", captions: "", credit: "", text: "")
     }
 }
