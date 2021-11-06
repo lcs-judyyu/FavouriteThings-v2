@@ -9,21 +9,9 @@ import SwiftUI
 
 struct FavouriteThingsListView: View {
     var body: some View {
-        ZStack {
-            Color.purple
-            
-            VStack {
-                List {
-                    NavigationLink(destination: DetailView(item: FavouriteThing)) {
-                        NavigationImagesView(imageName: "Chinchilla",
-                                             title: "Chinchilla",
-                                             description: "Chocolate is the cutest chinchilla")
-                    }
-                    
-                    
-            }
+        List {
+            ForEach
         }
-    }
     }
 }
 
