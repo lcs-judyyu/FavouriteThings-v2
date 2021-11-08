@@ -9,20 +9,25 @@ import SwiftUI
 
 struct FavouriteThingsListView: View {
     var body: some View {
-        List {
-            
-            ForEach(listOfItems) { currentItem in
-                
-                NavigationLink(destination: {
+        ZStack {
+            Color.purple
+            VStack {
+                List {
                     
-                    DetailView(item: currentItem)
-                    
-                }, label: {
-                    NavigationImagesView(imageName: currentItem.imageName, title: currentItem.title, description: currentItem.description)
-                })
+                    ForEach(listOfItems) { currentItem in
+                        
+                        NavigationLink(destination: {
+                            
+                            DetailView(item: currentItem)
+                            
+                        }, label: {
+                            NavigationImagesView(imageName: currentItem.imageName, title: currentItem.title, description: currentItem.description)
+                        })
+                    }
+                }
+                .navigationTitle("My Favourite Things")
             }
         }
-        .navigationTitle("My Favourite Things")
     }
 }
 
