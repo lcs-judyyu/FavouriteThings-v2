@@ -24,9 +24,9 @@ struct FavouriteThing: Identifiable {
        FavouriteThing(imageName: "IceCream", title: "Ice Cream", description: "I prefer milk flavored ice cream", captions: "Ice cream", text: "Ice cream is my favourite dessert")
         ,
        
-       FavouriteThing(imageName: "Lavender", title: "Lavender", description: "Lavender scent smells so goog", captions: "Lavender field", text: "I LOVE lavender scent :)")
+       FavouriteThing(imageName: "Lavender", title: "Lavender", description: "Lavender scent smells so good", captions: "Lavender field", text: "I LOVE lavender scent :)")
         ,
-       FavouriteThing(imageName: "Hotpot", title: "Hot pot", description: "Hot pot is my favourite Chinsese dish", captions: "Hotpot", text: "Hotpot is my favourite Chinese dish because I can put every ingredient I like in differemnt soup bases. My favourite soup base for hotpot is the spicy one.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ")
+       FavouriteThing(imageName: "Hotpot", title: "Hot Pot", description: "Hot pot is my favourite Chinsese dish", captions: "Hotpot", text: "Hotpot is my favourite Chinese dish because I can put every ingredient I like in differemnt soup bases. My favourite soup base for hotpot is the spicy one.\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ")
         ,
        FavouriteThing(imageName: "Ramen", title: "Ramen",
                       description: "I like Tonkotsu ramen", captions: "A bowl of delicious ramen", text: """

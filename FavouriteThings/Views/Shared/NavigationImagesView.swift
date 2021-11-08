@@ -29,6 +29,7 @@ struct NavigationImagesView: View {
                     .font(.caption2)
             }
         }
+        .navigationTitle("My Favourite Things")
     }
 }
 

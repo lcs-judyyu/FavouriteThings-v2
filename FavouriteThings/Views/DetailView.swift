@@ -31,7 +31,7 @@ struct DetailView: View {
                 Spacer()
             }
         }
-        .navigationTitle("Ramen")
+        .navigationTitle(item.title)
     }
 }
 
