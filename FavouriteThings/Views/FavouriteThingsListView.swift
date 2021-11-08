@@ -18,7 +18,7 @@ struct FavouriteThingsListView: View {
                     DetailView(item: currentItem)
                     
                 }, label: {
-                    EnhancedListItemView(imageName: currentItem.imageName, title: currentItem.title)
+                    NavigationImagesView(imageName: currentItem.imageName, title: currentItem.title, description: currentItem.description)
                 })
             }
         }
