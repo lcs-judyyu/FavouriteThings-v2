@@ -11,6 +11,8 @@ struct FavouriteThingsListView: View {
     var body: some View {
         ZStack {
             Color.purple
+                .edgesIgnoringSafeArea(.all)
+            
             VStack {
                 List {
                     
