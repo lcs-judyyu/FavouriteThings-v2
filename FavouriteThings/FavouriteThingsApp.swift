@@ -12,7 +12,7 @@ struct FavouriteThingsApp: App {
     var body: some Scene {
         WindowGroup {
             NavigationView {
-            FavouriteThingsListView()
+                FavouriteThingsListView()
             }
         }
     }
